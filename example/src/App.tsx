@@ -1,4 +1,4 @@
-import { hmac } from 'op-ring';
+import { hmac } from '@op-engineering/op-ring';
 import { Text, View, StyleSheet } from 'react-native';
 
 export default function App() {

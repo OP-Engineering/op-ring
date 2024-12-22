@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "op-ring": ["./src/index"]
+      "@op-engineering/op-ring": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

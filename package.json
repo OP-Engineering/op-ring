@@ -1,5 +1,5 @@
 {
-  "name": "op-ring",
+  "name": "@op-engineering/op-ring",
   "version": "0.1.0",
   "description": "Ring bindings for React Native",
   "source": "./src/index.tsx",
