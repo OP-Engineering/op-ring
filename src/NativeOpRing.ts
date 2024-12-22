@@ -2,7 +2,9 @@ import type { TurboModule } from 'react-native';
 import { TurboModuleRegistry } from 'react-native';
 
 export interface Spec extends TurboModule {
-  multiply(a: number, b: number): number;
+  install(): void;
 }
 
-export default TurboModuleRegistry.getEnforcing<Spec>('OpRing');
+let module = TurboModuleRegistry.getEnforcing<Spec>('OpRing');
+
+module.install();

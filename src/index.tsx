@@ -1,5 +1,5 @@
-import OpRing from './NativeOpRing';
+import './NativeOpRing';
 
-export function multiply(a: number, b: number): number {
-  return OpRing.multiply(a, b);
+export function hmac() {
+  return 'blah';
 }
